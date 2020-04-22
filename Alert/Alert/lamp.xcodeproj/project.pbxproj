@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8D6AF623443E21001A37BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D6AF523443E21001A37BC /* AppDelegate.swift */; };
+		DF8D6AF823443E21001A37BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D6AF723443E21001A37BC /* ViewController.swift */; };
+		DF8D6AFB23443E21001A37BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6AF923443E21001A37BC /* Main.storyboard */; };
+		DF8D6AFD23443E23001A37BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6AFC23443E23001A37BC /* Assets.xcassets */; };
+		DF8D6B0023443E23001A37BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6AFE23443E23001A37BC /* LaunchScreen.storyboard */; };
+		DF8D6B0B23443E23001A37BC /* lampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D6B0A23443E23001A37BC /* lampTests.swift */; };
+		DF8D6B1623443E23001A37BC /* lampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D6B1523443E23001A37BC /* lampUITests.swift */; };
+		DF8D6B2C2344466A001A37BC /* lamp-on.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6B292344466A001A37BC /* lamp-on.png */; };
+		DF8D6B2D2344466A001A37BC /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6B2A2344466A001A37BC /* lamp-remove.png */; };
+		DF8D6B2E2344466A001A37BC /* lamp-off.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8D6B2B2344466A001A37BC /* lamp-off.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF8D6B0723443E23001A37BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8D6AEA23443E21001A37BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8D6AF123443E21001A37BC;
+			remoteInfo = lamp;
+		};
+		DF8D6B1223443E23001A37BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8D6AEA23443E21001A37BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8D6AF123443E21001A37BC;
+			remoteInfo = lamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF8D6AF223443E21001A37BC /* lamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D6AF523443E21001A37BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF8D6AF723443E21001A37BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF8D6AFA23443E21001A37BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF8D6AFC23443E23001A37BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8D6AFF23443E23001A37BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF8D6B0123443E23001A37BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D6B0623443E23001A37BC /* lampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D6B0A23443E23001A37BC /* lampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lampTests.swift; sourceTree = "<group>"; };
+		DF8D6B0C23443E23001A37BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D6B1123443E23001A37BC /* lampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D6B1523443E23001A37BC /* lampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lampUITests.swift; sourceTree = "<group>"; };
+		DF8D6B1723443E23001A37BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D6B292344466A001A37BC /* lamp-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-on.png"; path = "../../../Downloads/사용할 이미지파일/lamp-on.png"; sourceTree = "<group>"; };
+		DF8D6B2A2344466A001A37BC /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-remove.png"; path = "../../../Downloads/사용할 이미지파일/lamp-remove.png"; sourceTree = "<group>"; };
+		DF8D6B2B2344466A001A37BC /* lamp-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-off.png"; path = "../../../Downloads/사용할 이미지파일/lamp-off.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8D6AEF23443E21001A37BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0323443E23001A37BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0E23443E23001A37BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8D6AE923443E21001A37BC = {
+			isa = PBXGroup;
+			children = (
+				DF8D6AF423443E21001A37BC /* lamp */,
+				DF8D6B0923443E23001A37BC /* lampTests */,
+				DF8D6B1423443E23001A37BC /* lampUITests */,
+				DF8D6AF323443E21001A37BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8D6AF323443E21001A37BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D6AF223443E21001A37BC /* lamp.app */,
+				DF8D6B0623443E23001A37BC /* lampTests.xctest */,
+				DF8D6B1123443E23001A37BC /* lampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8D6AF423443E21001A37BC /* lamp */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D6AF523443E21001A37BC /* AppDelegate.swift */,
+				DF8D6AF723443E21001A37BC /* ViewController.swift */,
+				DF8D6AF923443E21001A37BC /* Main.storyboard */,
+				DF8D6B2B2344466A001A37BC /* lamp-off.png */,
+				DF8D6B292344466A001A37BC /* lamp-on.png */,
+				DF8D6B2A2344466A001A37BC /* lamp-remove.png */,
+				DF8D6AFC23443E23001A37BC /* Assets.xcassets */,
+				DF8D6AFE23443E23001A37BC /* LaunchScreen.storyboard */,
+				DF8D6B0123443E23001A37BC /* Info.plist */,
+			);
+			path = lamp;
+			sourceTree = "<group>";
+		};
+		DF8D6B0923443E23001A37BC /* lampTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D6B0A23443E23001A37BC /* lampTests.swift */,
+				DF8D6B0C23443E23001A37BC /* Info.plist */,
+			);
+			path = lampTests;
+			sourceTree = "<group>";
+		};
+		DF8D6B1423443E23001A37BC /* lampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D6B1523443E23001A37BC /* lampUITests.swift */,
+				DF8D6B1723443E23001A37BC /* Info.plist */,
+			);
+			path = lampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8D6AF123443E21001A37BC /* lamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D6B1A23443E23001A37BC /* Build configuration list for PBXNativeTarget "lamp" */;
+			buildPhases = (
+				DF8D6AEE23443E21001A37BC /* Sources */,
+				DF8D6AEF23443E21001A37BC /* Frameworks */,
+				DF8D6AF023443E21001A37BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lamp;
+			productName = lamp;
+			productReference = DF8D6AF223443E21001A37BC /* lamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8D6B0523443E23001A37BC /* lampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D6B1D23443E23001A37BC /* Build configuration list for PBXNativeTarget "lampTests" */;
+			buildPhases = (
+				DF8D6B0223443E23001A37BC /* Sources */,
+				DF8D6B0323443E23001A37BC /* Frameworks */,
+				DF8D6B0423443E23001A37BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8D6B0823443E23001A37BC /* PBXTargetDependency */,
+			);
+			name = lampTests;
+			productName = lampTests;
+			productReference = DF8D6B0623443E23001A37BC /* lampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF8D6B1023443E23001A37BC /* lampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D6B2023443E23001A37BC /* Build configuration list for PBXNativeTarget "lampUITests" */;
+			buildPhases = (
+				DF8D6B0D23443E23001A37BC /* Sources */,
+				DF8D6B0E23443E23001A37BC /* Frameworks */,
+				DF8D6B0F23443E23001A37BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8D6B1323443E23001A37BC /* PBXTargetDependency */,
+			);
+			name = lampUITests;
+			productName = lampUITests;
+			productReference = DF8D6B1123443E23001A37BC /* lampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8D6AEA23443E21001A37BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Hallym;
+				TargetAttributes = {
+					DF8D6AF123443E21001A37BC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DF8D6B0523443E23001A37BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF8D6AF123443E21001A37BC;
+					};
+					DF8D6B1023443E23001A37BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF8D6AF123443E21001A37BC;
+					};
+				};
+			};
+			buildConfigurationList = DF8D6AED23443E21001A37BC /* Build configuration list for PBXProject "lamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8D6AE923443E21001A37BC;
+			productRefGroup = DF8D6AF323443E21001A37BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8D6AF123443E21001A37BC /* lamp */,
+				DF8D6B0523443E23001A37BC /* lampTests */,
+				DF8D6B1023443E23001A37BC /* lampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8D6AF023443E21001A37BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D6B0023443E23001A37BC /* LaunchScreen.storyboard in Resources */,
+				DF8D6B2E2344466A001A37BC /* lamp-off.png in Resources */,
+				DF8D6B2D2344466A001A37BC /* lamp-remove.png in Resources */,
+				DF8D6AFD23443E23001A37BC /* Assets.xcassets in Resources */,
+				DF8D6B2C2344466A001A37BC /* lamp-on.png in Resources */,
+				DF8D6AFB23443E21001A37BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0423443E23001A37BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0F23443E23001A37BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8D6AEE23443E21001A37BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D6AF823443E21001A37BC /* ViewController.swift in Sources */,
+				DF8D6AF623443E21001A37BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0223443E23001A37BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D6B0B23443E23001A37BC /* lampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D6B0D23443E23001A37BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D6B1623443E23001A37BC /* lampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8D6B0823443E23001A37BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8D6AF123443E21001A37BC /* lamp */;
+			targetProxy = DF8D6B0723443E23001A37BC /* PBXContainerItemProxy */;
+		};
+		DF8D6B1323443E23001A37BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8D6AF123443E21001A37BC /* lamp */;
+			targetProxy = DF8D6B1223443E23001A37BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF8D6AF923443E21001A37BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8D6AFA23443E21001A37BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8D6AFE23443E23001A37BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8D6AFF23443E23001A37BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF8D6B1823443E23001A37BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8D6B1923443E23001A37BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8D6B1B23443E23001A37BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8D6B1C23443E23001A37BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF8D6B1E23443E23001A37BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lamp.app/lamp";
+			};
+			name = Debug;
+		};
+		DF8D6B1F23443E23001A37BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lamp.app/lamp";
+			};
+			name = Release;
+		};
+		DF8D6B2123443E23001A37BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lamp;
+			};
+			name = Debug;
+		};
+		DF8D6B2223443E23001A37BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hallym.lampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8D6AED23443E21001A37BC /* Build configuration list for PBXProject "lamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D6B1823443E23001A37BC /* Debug */,
+				DF8D6B1923443E23001A37BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D6B1A23443E23001A37BC /* Build configuration list for PBXNativeTarget "lamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D6B1B23443E23001A37BC /* Debug */,
+				DF8D6B1C23443E23001A37BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D6B1D23443E23001A37BC /* Build configuration list for PBXNativeTarget "lampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D6B1E23443E23001A37BC /* Debug */,
+				DF8D6B1F23443E23001A37BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D6B2023443E23001A37BC /* Build configuration list for PBXNativeTarget "lampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D6B2123443E23001A37BC /* Debug */,
+				DF8D6B2223443E23001A37BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8D6AEA23443E21001A37BC /* Project object */;
+}
